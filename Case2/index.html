@@ -8,7 +8,7 @@
         header{
 
             position: relative;
-            box-shadow: 2px 2px 6px 2px grey;
+            box-shadow: 2px 2px 2px 2px grey;
         }
 
         header>ul{
@@ -37,6 +37,62 @@
             height: 10px;
         }
 
+        main>nav{
+            width:300px;
+            background: blueviolet;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+        }
+
+        body>main{
+            position: relative;
+        }
+
+        main>section{
+            margin-left: 300px;
+            padding:20px;
+        }
+
+        main>nav>ul{
+            list-style: none;
+            margin-top: 30px;
+            font-size: 20px;
+            font-family: Bahnschrift;
+            padding:20px;
+            margin-left: 30px;
+        }
+
+        main>nav>ul>li{
+            padding-bottom: 20px;
+        }
+        main>section>section{
+            border: 1px solid red;
+            height:300px;
+            position: relative;
+        }
+
+        main>section>section>div{
+            border: 1px solid gray;
+            height:100%;
+            width: calc(100%/3);
+            position: absolute;
+        }
+
+        main>section>section>div:nth-child(1){
+            left:0;
+            background: url("assets/images/studingGirlGiff.gif" ) ;
+
+
+        }
+        main>section>section>div:nth-child(2){
+            left: calc(100%/3);
+            background: url("assets/images/studingGirlGiff.gif" ) ;
+        }
+        main>section>section>div:nth-child(3){
+            right:0px;
+            background: url("assets/images/studingGirlGiff.gif" ) ;
+         }
 
     </style>
 </head>
@@ -53,16 +109,19 @@
 <main>
     <nav>
         <ul>
-            <li>Home</li>
-            <li>Services</li>
-            <li>Contacts</li>
-            <li>About Us</li>
+            <li><a href="https://ijse.lk">Home</a></li>
+            <li><a href="https://facebook.com">Services</a></li>
+            <li><a href="https://ijse.lk">Contacts</a></li>
+            <li><a href="https://ijse.lk">About Us</a></li>
         </ul>
     </nav>
     <section>
-        <div></div>
-        <div></div>
-        <div></div>
+        <section>
+            <div></div>
+            <div></div>
+            <div></div>
+        </section>
+
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, cum eius exercitationem facere minus modi
             neque placeat quia tempore voluptate. Laudantium, nobis, ratione. Maxime molestiae nisi numquam porro
             ratione similique?</p>
@@ -75,6 +134,18 @@
         <p>Aliquid atque cum earum eum, facilis impedit neque nihil quam, quos reiciendis repellendus reprehenderit
             rerum similique, suscipit velit? Earum explicabo, iure laborum maiores necessitatibus non perferendis
             suscipit. Ea, ipsa, nam.</p>
+        <p>Accusamus aperiam cumque cupiditate deserunt dolorem esse, ipsum, iusto laudantium minus odio quibusdam quod
+            recusandae sed? Commodi cupiditate error iure nostrum obcaecati tempora. Architecto consequuntur laborum
+            minus modi natus nobis?</p>
+        <p>A autem distinctio neque nihil non odio qui quod repudiandae sapiente unde? Ab accusamus aliquam aliquid
+            animi distinctio doloribus dolorum esse eum, fugit laborum molestias nisi numquam sint temporibus,
+            veniam.</p>
+        <p>Aliquam assumenda cumque cupiditate dolorem ea est ex facilis fuga illum impedit inventore ipsam laudantium
+            libero nemo non numquam, obcaecati porro quaerat, quibusdam repellat reprehenderit sapiente tempora
+            temporibus tenetur ullam!</p>
+        <p>Ab assumenda, corporis cumque, delectus deserunt dolor dolorem, esse exercitationem expedita fuga minus
+            nesciunt nisi non placeat possimus provident quaerat quam reiciendis repellat sapiente soluta sunt vel
+            veniam voluptas voluptatum.</p>
         <p>Accusamus aperiam cumque cupiditate deserunt dolorem esse, ipsum, iusto laudantium minus odio quibusdam quod
             recusandae sed? Commodi cupiditate error iure nostrum obcaecati tempora. Architecto consequuntur laborum
             minus modi natus nobis?</p>
